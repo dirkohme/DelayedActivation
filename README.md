@@ -43,6 +43,7 @@ DelayedActivation(const uint32_t dwThresholdTrigger = 1,
   - activation is reset when activation counter gets below activation threshold
 
 ## Releases
+- 1.0.1 Activation threshold changed, example added.
 - 1.0.0 Initial release.
 
 ## How to install

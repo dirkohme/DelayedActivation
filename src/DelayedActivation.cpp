@@ -41,7 +41,7 @@ DelayedActivation::DelayedActivation(const uint32_t dwThresholdTrigger /*= 1*/,
 	                             const uint32_t dwThresholdReset   /*= 10*/)
 
 {
-	m_dwThresholdTriggerMax = dwThresholdTrigger + dwThresholdReset;
+	m_dwThresholdTriggerMax = dwThresholdTrigger + dwThresholdTrigger;
 	m_dwThresholdTriggerMax = (m_dwThresholdTriggerMax >= dwThresholdTrigger)
 	                        ? m_dwThresholdTriggerMax : dwThresholdTrigger;
 	m_dwThresholdTrigger    = dwThresholdTrigger;
