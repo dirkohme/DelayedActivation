@@ -1,0 +1,20 @@
+###########################################
+# Syntax Coloring Map For DelayedActivation
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+DelayedActivation	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+Clear			KEYWORD2
+IsActive		KEYWORD2
+TriggerActivation	KEYWORD2
+TriggerReset		KEYWORD2
+
+###########################################
+# Constants (LITERAL1)
+###########################################
